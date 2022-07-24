@@ -116,8 +116,8 @@ export default function RowModal() {
             <tr>
               <th className="text-center" style={{ width: "5%" }}>#</th>
               <th className="text-center" style={{ width: "10%" }}>Id</th>
-              <th className="text-center" style={{ width: "35%" }}>Width</th>
-              <th className="text-center" style={{ width: "35%" }}>Offset</th>
+              <th className="text-center" style={{ width: "35%" }}>Width (1-12)</th>
+              <th className="text-center" style={{ width: "35%" }}>Offset (1-12)</th>
               <th className="text-center" style={{ width: "15%" }}>
               </th>
             </tr>

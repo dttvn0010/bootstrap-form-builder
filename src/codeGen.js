@@ -173,7 +173,7 @@ export function genHtml(rows, formSettings) {
   let html = '<meta charset="UTF-8">\n';
   html += `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">\n\n`;
   html += `<style>\n`;
-  html += `  .container{\n`;
+  html += `  .main-form{\n`;
 
   let fields = {
     width: 'width',
@@ -199,7 +199,7 @@ export function genHtml(rows, formSettings) {
   }
   html += `</style>\n\n`;
 
-  html += `<div class="container">\n`;
+  html += `<div class="container main-form">\n`;
   for(let i = 0; i < rows.length; i++) {
     html += generateRowHtml(rows[i]);
     if(i + 1 < rows.length) html += '\n';
